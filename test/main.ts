@@ -2,7 +2,16 @@ import * as chai from "chai";
 import debcheck from "../index";
 
 
+debcheck('zzzzz').then((a) => {
 
+    if (a) {
+        console.log("okk")
+    } else {
+        console.log("nok")
+
+    }
+
+})
 
 debcheck('n2n').then((a) => {
 
