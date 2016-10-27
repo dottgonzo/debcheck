@@ -1,6 +1,6 @@
 {
   "name": "debcheck",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check if a package is installed on a debian like os",
   "main": "index.js",
   "scripts": {

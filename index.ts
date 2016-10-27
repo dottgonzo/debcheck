@@ -11,9 +11,11 @@ export default function (pkg: string) {
             if (!err) {
                 if (out && (out === 'true' || out === 'false')) {
                     resolve(eval(out))
+                } else {
+                    reject("error! " + out)
                 }
             } else {
-                throw Error("sh error")
+                reject(err)
             }
 
 
