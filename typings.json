@@ -1,0 +1,9 @@
+{
+  "globalDevDependencies": {
+    "chai": "registry:dt/chai#3.4.0+20160601211834",
+    "node": "registry:dt/node#6.0.0+20161019125345"
+  },
+  "globalDependencies": {
+    "bluebird": "registry:dt/bluebird#3.0.0+20160928162057"
+  }
+}
