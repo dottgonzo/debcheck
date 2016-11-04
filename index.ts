@@ -18,7 +18,6 @@ export default function (pkg: string) {
                 reject(err)
             }
 
-
         })
     })
 
